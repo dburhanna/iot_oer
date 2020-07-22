@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cwru-cse-thesis.aux
+A level-1 auxiliary file: content/01-Introduction.aux
+A level-1 auxiliary file: content/02-BackgroundResearch.aux
+A level-1 auxiliary file: content/03-ModularFramework.aux
+A level-1 auxiliary file: content/04-PythonModule.aux
+A level-1 auxiliary file: content/05-MicroRemoteModule.aux
+A level-1 auxiliary file: content/06-MicroMonitorModule.aux
+A level-1 auxiliary file: content/07-MicroDataCollectionModule.aux
+A level-1 auxiliary file: content/08-SBCRemoteModule.aux
+A level-1 auxiliary file: content/09-SBCMonitorModule.aux
+A level-1 auxiliary file: content/10-SBCDataCollectionModule.aux
+A level-1 auxiliary file: content/11-SimulationModule.aux
+A level-1 auxiliary file: content/12-Conclusion.aux
+A level-1 auxiliary file: content/AppendixA.aux
+The style file: unsrt.bst
+Database file #1: refs/my_references.bib
+I was expecting a `,' or a `}'---line 7 of file refs/my_references.bib
+ : 
+ : author = {ASTM D4802},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 1 entry,
+            1791 wiz_defined-function locations,
+            465 strings with 4111 characters,
+and the built_in function-call counts, 258 in all, are:
+= -- 19
+> -- 14
+< -- 0
++ -- 5
+- -- 4
+* -- 23
+:= -- 49
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 9
+empty$ -- 23
+format.name$ -- 4
+if$ -- 53
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 1
+pop$ -- 1
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3
+stack$ -- 0
+substring$ -- 15
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 2
+write$ -- 13
+(There was 1 error message)

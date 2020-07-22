@@ -64,10 +64,18 @@ Much of the software used in this company is open source so you can examine/audi
 <p><strong>Notifications</strong> </p>
 <p>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur: We will notify you via email</p>
 <p>If there are any questions regarding this privacy policy, you may contact us using the information below.<br></p>
+
+<!-- 
 <pre><code>Python for Everybody (py4e.com)
 1537 Holbrook Drive
 Holt, Michigan 48842
 United States</code></pre>
-<p>Last edited: 27-Nov-2017</p>
+-->
+<pre><code>IOT Curriculum
+Douglas Burhanna
+NJ
+United States</code></pre>
+
+<p>Last edited: 21-July-2020</p>
 <?php include("footer.php"); ?>
 

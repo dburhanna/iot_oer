@@ -625,6 +625,246 @@
     }
 },
 {
+    "title": "Regular Expressions",
+    "anchor": "regex",
+    "icon" : "fa-magic",
+    "description": "Regular Expressions allow us to search for patterns in strings and extract data from strings using the regular expression programming language.",
+    "slides": "lectures3/Pythonlearn-11-Regex.pptx",
+    "videos" : [
+        {
+            "title" : "Regular Expressions - Part 1",
+            "youtube" : "ovZsvN67Glc"
+        },
+        {
+            "title" : "Regular Expressions - Part 2",
+            "youtube" : "fiar4QZZ7Xo"
+        },
+        {
+            "title" : "Regular Expressions - Part 3",
+            "youtube" : "GiQdXo2Bvgc"
+        }
+    ],
+    "references" : [
+        {
+            "title" : "Chapter 11: Regular Expressions",
+            "href" : "https://www.py4e.com/html3/11-regex"
+        },
+        {
+            "title" : "Python Regular Expression Quick Guide",
+            "href" : "lectures3/Pythonlearn-11-Regex-Handout.txt"
+        }
+    ],
+    "lti" : {
+        "title" : "Autograder: Regular Expressions",
+        "launch" : "tools/python-data/",
+        "resource_link_id": "pythondata_01_regex",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "regex_sum.php"
+            }
+        ]
+    }
+},
+{
+    "title": "Network Programming",
+    "anchor": "network",
+    "icon" : "fa-cloud",
+    "description": "We take a quick look at how data moves across the network using the HyperText Transport Protocol (HTTP) and how we write programs to read data scross the network.",
+    "slides": "lectures3/Pythonlearn-12-HTTP.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 12: Networked Programs",
+            "href" : "https://www.py4e.com/html3/12-network"
+        },
+        {
+            "title" : "ASCII Coding and Binary",
+            "href" : "https://www.youtube.com/watch?v=H4l42nbYmrU&t=308s"
+        },
+        {
+            "title" : "Characters, Symbols and the Unicode Miracle - Computerphile",
+            "href" : "https://www.youtube.com/watch?v=MijmeoH9LT4&t=385s"
+        }
+    ],
+
+    "videos" : [
+        {
+            "title" : "Network Programming - Part 1",
+            "youtube" : "RsnaRPC52G0"
+        },
+        {
+            "title" : "Network Programming - Part 2",
+            "youtube" : "Bvx7vY454xw"
+        },
+        {
+            "title" : "Network Programming - Part 3",
+            "youtube" : "Lr9Vm-VghAk"
+        },
+        {
+            "title" : "Worked Example: Sockets",
+            "youtube" : "EqUyu8ZZYUE"
+        },
+        {
+            "title" : "Network Programming - Part 4",
+            "youtube" : "-cmlmaVSONg"
+        },
+        {
+            "title" : "Network Programming - Part 5",
+            "youtube" : "k1sUxGPpQOk"
+        },
+        {
+            "title" : "Worked Example: Urllib",
+            "youtube" : "jKaCKIdIoks"
+        },
+        {
+            "title" : "Network Programming - Part 6",
+            "youtube" : "D7ZI8--qbBw"
+        },
+        {
+            "title" : "Worked Example: BeautifulSoup",
+            "youtube" : "mhaHWiSPxxE"
+        }
+    ],
+    "lti" : [
+    {
+        "title" : "Autograder: Request-Response Cycle",
+        "launch" : "tools/python-data/",
+        "resource_link_id": "pythondata_02_rrc",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "http_headers.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Scraping HTML Data with BeautifulSoup",
+        "launch" : "tools/python-data/",
+        "resource_link_id": "pythondata_03_html",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "comment_html.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Following Links with BeautifulSoup",
+        "launch" : "tools/python-data/",
+        "resource_link_id": "pythondata_04_links",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "knows.php"
+            }
+        ]
+    }
+    ]
+},
+{
+    "title": "Using Web Services",
+    "anchor": "servces",
+    "icon" : "fa-briefcase",
+    "description": "Web services allow a program to access data available in a different server.",
+    "slides": "lectures3/Pythonlearn-13-WebServices.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 13: Python and Web Services",
+            "href" : "https://www.py4e.com/html3/13-web"
+        }
+    ],
+
+    "videos" : [
+        {
+            "title" : "Web Services Part 1",
+            "youtube" : "7NEtEctD9Cw"
+        },
+        {
+            "title" : "Web Services - XML  (Part 2)",
+            "youtube" : "A8KcBx9153Y"
+        },
+        {
+            "title" : "Worked Example: XML",
+            "youtube" : "7q8uUehNRK0"
+        },
+        {
+            "title" : "Web Services - XML Schema (Part 3)",
+            "youtube" : "0cA6W-4JPQ4"
+        },
+        {
+            "title" : "Web Services - JSON (Part 4)",
+            "youtube" : "J5DjteDzgoM"
+        },
+        {
+            "title" : "Worked Example: JSON",
+            "youtube" : "RGQfDirZ7_s"
+        },
+        {
+            "title" : "Discovering JSON - Douglas Crockford",
+            "youtube" : "kc8BAR7SHJI"
+        },
+        {
+            "title" : "Web Services - SOA (Part 5)",
+            "youtube" : "SNeJcvBY-h4"
+        },
+        {
+            "title" : "The JISC e-Framework",
+            "youtube" : "mj-kCFzF0ME"
+        },
+        {
+            "title" : "Web Services - GeoJSON (Part 6)",
+            "youtube" : "QyHcOL3C7fQ"
+        },
+        {
+            "title" : "Worked Example: GeoJSON",
+            "youtube" : "vjQZscHOaG4"
+        },
+        {
+            "title" : "Web Services - Twitter (Part 7)",
+            "youtube" : "mrRo2xX39nw"
+        },
+        {
+            "title" : "Worked Example: Twitter",
+            "youtube" : "zJzPyEPCbXs"
+        }
+    ],
+    "lti" : [
+    {
+        "title" : "Autograder: Extracting Data from XML",
+        "resource_link_id": "pythondata_05_xml",
+        "launch" : "tools/python-data/",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "comment_xml.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Extract Data from JSON",
+        "launch" : "tools/python-data/",
+        "resource_link_id": "pythondata_06_json",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "comment_json.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Using the GeoJSON API",
+        "launch" : "tools/python-data/",
+        "resource_link_id": "pythondata_07_geo",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "geo_json.php"
+            }
+        ]
+    }
+    ]
+},
+{
     "title": "Object-Oriented Programming",
     "anchor": "Objects",
     "icon" : "fa-cubes",
@@ -659,6 +899,287 @@
             "title" : "Quiz: Object-Oriented Programming",
             "launch" : "mod/gift/?quiz=16-Python-Objects.txt",
             "resource_link_id" : "py4e_16_oo_quiz"
+        }
+    ]
+},
+{
+    "title": "Databases",
+    "chapter" : "15",
+    "anchor": "database",
+    "icon" : "fa-database",
+    "description": "Databases give us very fast random access to large amounts of data. There is a lot of material in this chapter as we learn the Structured Query Language (SQL).",
+    "slides": "lectures3/Pythonlearn-15-Databases.pptx",
+    "videos" : [
+        {
+            "title" : "Databases - Part 1",
+            "youtube" : "3RMPveOMd0k"
+        },
+        {
+            "title" : "Databases - Single Table SQL - Part 2",
+            "youtube" : "yRJE-nk20sM"
+        },
+        {
+            "title" : "Worked Example: Emaildb.py",
+            "youtube" : "MsZoGw4QEpU"
+        },
+        {
+            "title" : "Worked Example: Twspider.py",
+            "youtube" : "wQNjza1gb_g"
+        },
+        {
+            "title" : "Databases - Complex Models - Part 3",
+            "youtube" : "rHjRpYUl5eg"
+        },
+        {
+            "title" : "Databases - Part 4",
+            "youtube" : "PgE--P-ZWvU"
+        },
+        {
+            "title" : "Databases - Foreign Keys - Part 5",
+            "youtube" : "GfuH_8uH16k"
+        },
+        {
+            "title" : "Databases - JOIN - Part 6",
+            "youtube" : "zMOSVrb82iU"
+        },
+        {
+            "title" : "Worked Example: Tracks.py",
+            "youtube" : "UGe7X_L-lHc"
+        },
+        {
+            "title" : "Databases - Many-to-Many - Part 7",
+            "youtube" : "uq_Wf4nuXqE"
+        },
+        {
+            "title" : "Worked Example: Roster.py",
+            "youtube" : "CqzELd0R9zc"
+        },
+        {
+            "title" : "Worked Example: Twfriends.py",
+            "youtube" : "A_TpMJkSOcI"
+        }
+    ],
+    "references" : [
+        {
+            "title" : "Chapter 15: Python and Databases",
+            "href" : "https://www.py4e.com/html3/15-database"
+        },
+        {
+            "title" : "Python for Everybody Database Handout",
+            "href" : "lectures3/Pythonlearn-15-Database-Handout.txt"
+        }
+    ],
+    "lti" : [
+    {
+        "title" : "Autograder: Single Table SQL",
+        "launch" : "tools/sql-intro/",
+        "resource_link_id": "pythonsql_01_single",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "single_lite.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Counting Email in a Database",
+        "launch" : "tools/sql-intro/",
+        "resource_link_id": "pythonsql_02_email",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "count_lite.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Multi-Table Database - Tracks",
+        "launch" : "tools/sql-intro/",
+        "resource_link_id": "pythonsql_03_tracks",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "many_one_lite.php"
+            }
+        ]
+    },
+    {
+        "title" : "Autograder: Many Students in Many Courses",
+        "launch" : "tools/sql-intro/",
+        "resource_link_id": "pythonsql_04_many",
+        "custom" : [
+            {
+                "key": "exercise",
+                "value": "many_many_lite.php"
+            }
+        ]
+    }
+    ]
+},
+{
+    "title": "Data Visualization",
+    "anchor": "dataviz",
+    "icon" : "fa-bar-chart-o",
+    "description": "In this section, we learn to scrape data from the network, store the data in a database and then read the data from the database to produce in in-browser visualization of the data.",
+    "slides": "lectures3/Pythonlearn-16-Data-Viz.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 16: Data Vizualization",
+            "href" : "https://www.py4e.com/html3/16-viz"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Visualization - Geodata - Part 1",
+            "youtube" : "gy6l4DTv1KU"
+        },
+        {
+            "title" : "Worked Example: Geodata",
+            "youtube" : "mt03Z2QjndQ"
+        },
+        {
+            "title" : "Visualization - Page Rank - Part 2",
+            "youtube" : "x2KMFkvDtI8"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Spidering",
+            "youtube" : "SbtGozLk5Yk"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Computation",
+            "youtube" : "9gtLOS87ZPs"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Visualization",
+            "youtube" : "vM4kJNePwhI"
+        },
+        {
+            "title" : "Visualization - Gmane (Email) Part 3",
+            "youtube" : "vE0_PM2BOiU"
+        },
+        {
+            "title" : "Worked Example: Gmane - Spider",
+            "youtube" : "NFS5MLKdNGw"
+        },
+        {
+            "title" : "Worked Example: Gmane - Model",
+            "youtube" : "8GHtT7GqRKk"
+        },
+        {
+            "title" : "Worked Example: Gmane - Visualization",
+            "youtube" : "AQtKm02FQq4"
+        }
+    ]
+},
+
+{
+    "title": "Data Visualization",
+    "anchor": "dataviz",
+    "icon" : "fa-bar-chart-o",
+    "description": "In this section, we learn to scrape data from the network, store the data in a database and then read the data from the database to produce in in-browser visualization of the data.",
+    "slides": "lectures3/Pythonlearn-16-Data-Viz.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 16: Data Vizualization",
+            "href" : "https://www.py4e.com/html3/16-viz"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Visualization - Geodata - Part 1",
+            "youtube" : "gy6l4DTv1KU"
+        },
+        {
+            "title" : "Worked Example: Geodata",
+            "youtube" : "mt03Z2QjndQ"
+        },
+        {
+            "title" : "Visualization - Page Rank - Part 2",
+            "youtube" : "x2KMFkvDtI8"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Spidering",
+            "youtube" : "SbtGozLk5Yk"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Computation",
+            "youtube" : "9gtLOS87ZPs"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Visualization",
+            "youtube" : "vM4kJNePwhI"
+        },
+        {
+            "title" : "Visualization - Gmane (Email) Part 3",
+            "youtube" : "vE0_PM2BOiU"
+        },
+        {
+            "title" : "Worked Example: Gmane - Spider",
+            "youtube" : "NFS5MLKdNGw"
+        },
+        {
+            "title" : "Worked Example: Gmane - Model",
+            "youtube" : "8GHtT7GqRKk"
+        },
+        {
+            "title" : "Worked Example: Gmane - Visualization",
+            "youtube" : "AQtKm02FQq4"
+        }
+    ]
+},
+
+{
+    "title": "Data Visualization",
+    "anchor": "dataviz",
+    "icon" : "fa-bar-chart-o",
+    "description": "In this section, we learn to scrape data from the network, store the data in a database and then read the data from the database to produce in in-browser visualization of the data.",
+    "slides": "lectures3/Pythonlearn-16-Data-Viz.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 16: Data Vizualization",
+            "href" : "https://www.py4e.com/html3/16-viz"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Visualization - Geodata - Part 1",
+            "youtube" : "gy6l4DTv1KU"
+        },
+        {
+            "title" : "Worked Example: Geodata",
+            "youtube" : "mt03Z2QjndQ"
+        },
+        {
+            "title" : "Visualization - Page Rank - Part 2",
+            "youtube" : "x2KMFkvDtI8"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Spidering",
+            "youtube" : "SbtGozLk5Yk"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Computation",
+            "youtube" : "9gtLOS87ZPs"
+        },
+        {
+            "title" : "Worked Example: Page Rank - Visualization",
+            "youtube" : "vM4kJNePwhI"
+        },
+        {
+            "title" : "Visualization - Gmane (Email) Part 3",
+            "youtube" : "vE0_PM2BOiU"
+        },
+        {
+            "title" : "Worked Example: Gmane - Spider",
+            "youtube" : "NFS5MLKdNGw"
+        },
+        {
+            "title" : "Worked Example: Gmane - Model",
+            "youtube" : "8GHtT7GqRKk"
+        },
+        {
+            "title" : "Worked Example: Gmane - Visualization",
+            "youtube" : "AQtKm02FQq4"
         }
     ]
 }

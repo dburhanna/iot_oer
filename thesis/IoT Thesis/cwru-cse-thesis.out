@@ -1,0 +1,52 @@
+\BOOKMARK [0][]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][]{chapter.1}{Chapter 1. Introduction}{}% 2
+\BOOKMARK [1][]{section.1.1}{Motivations for an Internet of Things Curriculum}{chapter.1}% 3
+\BOOKMARK [1][]{section.1.2}{An Introduction to Curriculum Development}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.3}{An Introduction to the Internet of Things}{chapter.1}% 5
+\BOOKMARK [0][]{chapter.2}{Chapter 2. The Internet of Things}{}% 6
+\BOOKMARK [1][]{section.2.1}{History}{chapter.2}% 7
+\BOOKMARK [1][]{section.2.2}{What are Things?}{chapter.2}% 8
+\BOOKMARK [1][]{section.2.3}{How Do Things Connect?}{chapter.2}% 9
+\BOOKMARK [1][]{section.2.4}{How Do Things Communicate?}{chapter.2}% 10
+\BOOKMARK [1][]{section.2.5}{IOT Services}{chapter.2}% 11
+\BOOKMARK [1][]{section.2.6}{IOT Security}{chapter.2}% 12
+\BOOKMARK [1][]{section.2.7}{Future Directions of IOT}{chapter.2}% 13
+\BOOKMARK [0][]{chapter.3}{Chapter 3. A Modular Framework}{}% 14
+\BOOKMARK [1][]{section.3.1}{Modular Motivations}{chapter.3}% 15
+\BOOKMARK [1][]{section.3.2}{Module Descriptions}{chapter.3}% 16
+\BOOKMARK [0][]{chapter.4}{Chapter 4. Python Module}{}% 17
+\BOOKMARK [1][]{section.4.1}{Intro to Python}{chapter.4}% 18
+\BOOKMARK [1][]{section.4.2}{MicroPython/CircuitPython}{chapter.4}% 19
+\BOOKMARK [0][]{chapter.5}{Chapter 5. Microcontroller based Remote Control Module}{}% 20
+\BOOKMARK [1][]{section.5.1}{Introduction}{chapter.5}% 21
+\BOOKMARK [1][]{section.5.2}{Hardware}{chapter.5}% 22
+\BOOKMARK [1][]{section.5.3}{Software}{chapter.5}% 23
+\BOOKMARK [0][]{chapter.6}{Chapter 6. Microcontroller based Remote Monitoring Module}{}% 24
+\BOOKMARK [1][]{section.6.1}{Introduction}{chapter.6}% 25
+\BOOKMARK [1][]{section.6.2}{Hardware}{chapter.6}% 26
+\BOOKMARK [1][]{section.6.3}{Software}{chapter.6}% 27
+\BOOKMARK [0][]{chapter.7}{Chapter 7. Microcontroller based Data Collection Module}{}% 28
+\BOOKMARK [1][]{section.7.1}{Introduction}{chapter.7}% 29
+\BOOKMARK [1][]{section.7.2}{Hardware}{chapter.7}% 30
+\BOOKMARK [1][]{section.7.3}{Software}{chapter.7}% 31
+\BOOKMARK [0][]{chapter.8}{Chapter 8. Single Board Computer Remote Control Module}{}% 32
+\BOOKMARK [1][]{section.8.1}{Introduction}{chapter.8}% 33
+\BOOKMARK [1][]{section.8.2}{Hardware}{chapter.8}% 34
+\BOOKMARK [1][]{section.8.3}{Software}{chapter.8}% 35
+\BOOKMARK [0][]{chapter.9}{Chapter 9. Single Board Computer Remote Monitoring Module}{}% 36
+\BOOKMARK [1][]{section.9.1}{Introduction}{chapter.9}% 37
+\BOOKMARK [1][]{section.9.2}{Hardware}{chapter.9}% 38
+\BOOKMARK [1][]{section.9.3}{Software}{chapter.9}% 39
+\BOOKMARK [0][]{chapter.10}{Chapter 10. Single Board Computer Data Collection Module}{}% 40
+\BOOKMARK [1][]{section.10.1}{Introduction}{chapter.10}% 41
+\BOOKMARK [1][]{section.10.2}{Hardware}{chapter.10}% 42
+\BOOKMARK [1][]{section.10.3}{Software}{chapter.10}% 43
+\BOOKMARK [0][]{chapter.11}{Chapter 11. Simulation Based Module}{}% 44
+\BOOKMARK [1][]{section.11.1}{Simulating a Thing}{chapter.11}% 45
+\BOOKMARK [0][]{chapter.12}{Chapter 12. Conclusions}{}% 46
+\BOOKMARK [0][]{chapter.1}{Appendix A. The Internet of Things}{}% 47
+\BOOKMARK [1][]{section.1.1}{IOT Transports}{chapter.1}% 48
+\BOOKMARK [1][]{section.1.2}{IOT Protocols}{chapter.1}% 49
+\BOOKMARK [1][]{section.1.3}{IOT Services}{chapter.1}% 50
+\BOOKMARK [1][]{section.1.4}{IOT Security}{chapter.1}% 51
+\BOOKMARK [0][]{chapter*.2}{Complete References}{}% 52

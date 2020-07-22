@@ -1,22 +1,32 @@
 <?php include("top.php"); ?>
 <?php include("nav.php"); ?>
 <h1>
-Getting started with Python on a Macintosh
+Prepare your Macintosh to use Mu with Python
 </h1>
-<p>Python 2 and Python 3 are already installed on Macintosh OS/X operating system so all you need to add
-is a programmer text editor.
+<p>Python is already installed with the Macintosh OS/X operating system so all you need to add
+is the Mu IDE.
 </p>
-<b>Installing the Atom Text Editor</b>
-<p>Please download and install Atom from this site:
+<b>Installing Mu</b>
+<p>Please download and install Mu from this site: <a href="https://codewith.mu/en/download" target="_blank">https://codewith.mu/en/download</a>
 </p>
-<p><a href="http://atom.io" target="_blank">http://atom.io</a>
+<p>
+    The Mu site provides detailed installation directions <a href="https://codewith.mu/en/howto/1.0/install_macos" target="_blank">on this page.</a>
+</p>
 
-<h1>Writing a Python 3 program with Atom on Macintosh</h1>
+
+<h1>Starting Mu and testing the Mu IDE</h1>
 <p>
-We have a short
-<a href="https://www.youtube.com/watch?v=aIcLCww_kQM" target="_blank">
-step-by-step video</a> showing how to use Atom and write your first Python 3 program.
+    The last step is to check your installation to make sure it works as expected. I have a short
+    <a href="https://www.youtube.com/watch?v=aIcLCww_kQM" target="_blank">
+    step-by-step video</a> showing how to start Mu and test it with a simple Python program.
+</p>
+
+
+<h1>What about using Mu with CircuitPython?</h1>
 <p>
+    You will need to do some more prep work before we begin exploring CircuitPython on the Adafruit Feather Sense but we will wait until you have a good handle on Python before adding the necessary files to your system.  We will jump into CircuitPython in Module 3.
+</p>
+<!--
 <h1>Starting Terminal on Macintosh OS/X</h1>
 <p>
 The Terminal program on Macintosh is kind of buried under <b>Macintosh HD -> Applications -> Utilities -> Terminal</b>
@@ -107,4 +117,8 @@ You can scroll back through previous commands by pressing the up and down arrows
 commands using the enter key.  This can save a lot of typing.
 If you like keeping your screen uncluttered, you can clear the scroll 
 back buffer by pressing the Command key and the K key at the same time.
+
+-->
+
+
 <?php include('footer.php');?>
