@@ -52,9 +52,10 @@ if ( isset($_SESSION['id']) ) {
 
 $imenu = new \Tsugi\UI\Menu();
 
-$imenu->addLink('Instructor', 'http://www.dr-chuck.com');
-$imenu->addLink('Office Hours', 'http://www.dr-chuck.com/office/');
-$set->addRight('Book', $R . 'book');
+$imenu->addLink('Instructor Doug Burhanna', 'instructor');
+$imenu->addLink('Case Western Reserve University', 'http://www.case.edu');
+$imenu->addLink('Where Doug currently works', 'http://www.hermits.com');
+//$set->addRight('Book', $R . 'book');
 $set->addRight('Instructor', $imenu);
 
 // Set the topNav for the session

@@ -59,7 +59,7 @@ Hello and welcome to my Open Education Repository (OER) for my Internet of Thing
   <dt>Module 2 - Python</dt>
   <dd>- Learn to solve some problems with the Python programming language.</dd>
   <dt>Module 3 - CircuitPython</dt>
-  <dd>- Learn to use CircuitPython on the Adafruit Feather hardware.</dd>
+  <dd>- Learn to use CircuitPython on the Adafruit Feather Sense hardware.</dd>
   <dt>Module 4 -IOT Remote Control </dt>
   <dd>- Learn to build an IOT enabled remote control device.</dd>
   <dt>Module 5 - IOT Remote Monitoring</dt>

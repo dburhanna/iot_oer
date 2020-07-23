@@ -4,13 +4,22 @@
    <iframe name="iframe-frame" style="height:600px" id="iframe-frame"
     src="<?= $OUTPUT->getSpinnerUrl() ?>"></iframe>
 </div>
+
+<?php
+/*
 <div style="float: right; margin: 5px;"/><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=drchu02-20&marketplace=amazon&region=US&placement=1530051126&asins=1530051126&linkId=2ea6c883c6cf11f29568856139bad34b&show_border=true&link_opens_in_new_window=true"></iframe></div>
+*/
+?>
+
+
 <h2>Open Educational Resources (OER)</h2>
 <p>
 You are welcome to use/reuse/remix/retain the materials from this site in your own courses.
 Nearly all the material in this web site is Copyright Creative Commons Attribution.  These are
 links to downloadable content as well as links to other sources of this course material.
 </p>
+<?php
+/*
 <p><b><a href="courses">Other courses/web sites using this book</a></b>
 </p>
 <ul>
@@ -50,6 +59,8 @@ some <a href="https://github.com/csev/py4e/blob/master/TRANSLATION.md" target="_
 instructions on how to translate this course</a> in my GitHub repository.
 If you are starting a translation, please contact me so we can coordinate our activities.
 </p>
+*/
+?>
 <h2>Using this Course in Your Local LMS</h2>
 <p>This web site uses the <a href="http://www.tsugi.org/" target="_blank">Tsugi</a> software
 to both host the software-based autograders and provide this material so it can easily be
@@ -110,13 +121,17 @@ to make this hand-copying as easy as it can be.
 </p>
 </li>
 </ul>
+
+<?php
+/*
 <h2>Audio Archive</h2>
 <p>
 Here is an archive of the
 <a href="https://archive.org/details/201509UMSI502Podcasts_201601" target="_blank">live lecture recordings</a>
 from SI502 as taught on campus at the UM School of Information Fall 2015.
 </p>
-
+*/
+?>
 
 <?php include("footer.php"); ?>
 

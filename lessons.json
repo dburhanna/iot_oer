@@ -116,9 +116,69 @@
 ],
 "modules": [
 { 
-    "title": "Installing Python",
+    "title": "Module 1.1 The Internet of Things",
+    "mod_number":1,
+    "anchor": "iotbasics",
+    "icon" : "IOTcloud",
+    "description": "An introduction to IOT",
+    "assignment" : "iotbasics.php",
+    "references" : [
+        {
+            "title" : "Setting up Python and the Mu IDE in Microsoft Windows",
+            "href" : "software-win.php"
+        },
+        {
+            "title" : "Setting up Python and the Mu IDE in Macintosh",
+            "href" : "software-mac.php"
+        }
+    ],
+    "lti" : {
+        "title": "Peer Graded: Installation Screen Shots",
+        "launch" : "mod/peer-grade/",
+        "resource_link_id": "iotbasics",
+        "custom" : [
+            {
+                "key": "config",
+                "json": 
+
+{
+  "title":"Peer Review: Installing and Running Python Screen Shots",
+  "description":"Install Python and a programming text editor and write a program that prints one line other than 'hello world', then take two screen shots and upload them below. You should use the command line to execute the Python program you wrote in the text editor. Please do *not* use the IDLE Python Shell, the Python Interpreter (>>>), or a shortcut in your text editor to run the code. Later in the class when we start reading files, we will need to be able to run Python programs from particular directories. See the videos for details.",
+  "grading":"This is a relatively simple assignment. The goal is to simply show that each student has Python installed on their desktop or laptop and can take screen shots. Please make your comments to help the student that you are reviewing.",
+  "assignment":"http://www.py4e.com/install",
+  "parts":[
+    {
+      "title":"Image of the program being edited in a text editor",
+      "type":"image"
+    },
+    {
+      "title":"Image of the program being executed in the command line or terminal",
+      "type":"image"
+    }
+  ],
+  "totalpoints":10,
+  "minassess":2,
+  "assesspoints":2,
+  "instructorpoints":0,
+  "maxassess":8,
+  "peerpoints":6,
+  "flag":true,
+  "rating":0,
+  "gallery":"off",
+  "resubmit":"off",
+  "notepublic":"false",
+  "galleryformat":"card"
+}
+
+            }
+        ]
+    }
+},    
+{ 
+    "title": "Module 2.1 Installing Python",
+    "mod_number":2,
     "anchor": "install",
-    "icon" : "fa-bicycle",
+    "icon" : "python",
     "description": "If you did not do this before starting Module 1, the first task in Module 2 is to work through the installation steps including installing Python and the Mu IDE.",
     "assignment" : "install.php",
     "references" : [
@@ -174,9 +234,10 @@
     }
 },
 {
-    "title": "Why Program?",
+    "title": "Module 2.2 Why Program?",
+    "mod_number":2,
     "anchor": "intro",
-    "icon" : "fa-hand-o-right",
+    "icon" : "python",
     "description": "We learn why one might want to learn to program, and look at the basic issues with learning to program.",
     "slides": "lectures3/Pythonlearn-01-Intro.pptx",
     "references" : [
@@ -228,9 +289,10 @@
     }
 },
 {
-    "title": "Variables, expressions, and statements",
+    "title": "Module 2.3 Variables, expressions, and statements",
+    "mod_number":2,
     "anchor": "memory",
-    "icon" : "fa-database",
+    "icon" : "python",
     "description": "We learn how to make variables and store data in those variables.",
     "slides": "lectures3/Pythonlearn-02-Expressions.pptx",
     "references" : [
@@ -270,9 +332,10 @@
     }
 },
 {
-    "title": "Conditional Execution",
+    "title": "Module 2.4 Conditional Execution",
+    "mod_number":2, 
     "anchor": "logic",
-    "icon" : "fa-diamond",
+    "icon" : "python",
     "description": "We look at how Python executes some statements and skips others.",
     "slides": "lectures3/Pythonlearn-03-Conditional.pptx",
     "references" : [
@@ -325,9 +388,10 @@
     ]
 },
 {
-    "title": "Functions",
+    "title": "Module 2.5 Functions",
+    "mod_number":2, 
     "anchor": "functions",
-    "icon" : "fa-files-o",
+    "icon" : "python",
     "description": "Take a brief look at how Python implements the 'store and use later' programming pattern.",
     "slides": "lectures3/Pythonlearn-04-Functions.pptx",
     "references" : [
@@ -363,9 +427,10 @@
     }
 },
 {
-    "title": "Loops and Iterations",
+    "title": "Module 2.6 Loops and Iterations",
+    "mod_number":2, 
     "anchor": "loops",
-    "icon" : "fa-gears",
+    "icon" : "python",
     "description": "We look at how Python repeats statements using looping structures.",
     "slides": "lectures3/Pythonlearn-05-Iterations.pptx",
     "references" : [
@@ -409,9 +474,10 @@
     }
 },
 {
-    "title": "Strings",
+    "title": "Module 2.7 Strings",
+    "mod_number":2, 
     "anchor": "strings",
-    "icon" : "fa-file-text-o",
+    "icon" : "python",
     "description": "We look at how Python stores and manipulates textual data using string variables and functions.",
     "slides": "lectures3/Pythonlearn-06-Strings.pptx",
     "references" : [
@@ -447,9 +513,10 @@
     }
 },
 {
-    "title": "Files",
+    "title": "Module 2.8 Files",
+    "mod_number":2, 
     "anchor": "files",
-    "icon" : "fa-database",
+    "icon" : "python",
     "description": "We learn how to open data files on your computer and read through the files using Python.",
     "slides": "lectures3/Pythonlearn-07-Files.pptx",
     "references" : [
@@ -485,9 +552,10 @@
     }
 },
 {
-    "title": "Lists",
+    "title": "Module 2.9 Lists",
+    "mod_number":2, 
     "anchor": "lists",
-    "icon" : "fa-list-ol",
+    "icon" : "python",
     "description": "We look at Python's simplest data structure - the list.  Lists can store more than one item in a variable.",
     "slides": "lectures3/Pythonlearn-08-Lists.pptx",
     "references" : [
@@ -540,9 +608,10 @@
     ]
 },
 {
-    "title": "Dictionaries",
+    "title": "Module 2.10 Dictionaries",
+    "mod_number":2, 
     "anchor": "dictionary",
-    "icon" : "fa-key",
+    "icon" : "python",
     "description": "The dictionary data structures allows us to store multiple values in an object and look up the values by their key.",
     "slides": "lectures3/Pythonlearn-09-Dictionaries.pptx",
     "videos" : [
@@ -586,9 +655,10 @@
     }
 },
 {
-    "title": "Tuples",
+    "title": "Module 2.11 Tuples",
+    "mod_number":2, 
     "anchor": "tuples",
-    "icon" : "fa-inbox",
+    "icon" : "python",
     "description": "The tuple is a Python data structure that is like a simple and efficient list.",
     "slides": "lectures3/Pythonlearn-10-Tuples.pptx",
     "references" : [
@@ -625,9 +695,10 @@
     }
 },
 {
-    "title": "Object-Oriented Programming",
+    "title": "Module 2.12 Object-Oriented Programming",
+    "mod_number":2, 
     "anchor": "Objects",
-    "icon" : "fa-cubes",
+    "icon" : "python",
     "description": "We do a quick look at how Python supports the Object-Oriented programming pattern.",
     "slides": "lectures3/Pythonlearn-14-Objects.pptx",
     "references" : [
@@ -659,6 +730,162 @@
             "title" : "Quiz: Object-Oriented Programming",
             "launch" : "mod/gift/?quiz=16-Python-Objects.txt",
             "resource_link_id" : "py4e_16_oo_quiz"
+        }
+    ]
+},
+{
+    "title": "Module 3.1 Introduction to CircuitPython",
+    "mod_number":3, 
+    "anchor": "Cpython1",
+    "icon" : "cpython",
+    "description": "What is CircuitPython?",
+    "slides": "lectures3/Pythonlearn-14-Objects.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 14: Python Objects",
+            "href" : "https://www.py4e.com/html3/14-objects"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Objects Part 1",
+            "youtube" : "u9xZE5t9Y30"
+        },
+        {
+            "title" : "Objects Part 2",
+            "youtube" : "b2vc5uzUfoE"
+        },
+        {
+            "title" : "Objects Part 3",
+            "youtube" : "bal0Fv6QE9w"
+        },
+        {
+            "title" : "Objects Part 4",
+            "youtube" : "EE9PaHPPm2w"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Object-Oriented Programming",
+            "launch" : "mod/gift/?quiz=16-Python-Objects.txt",
+            "resource_link_id" : "cpython_quiz1"
+        }
+    ]
+},
+{
+    "title": "Module 4.1 IOT Remote Control Lab",
+    "mod_number":4, 
+    "anchor": "IOTRemote1",
+    "icon" : "iot_remote",
+    "description": "Lab description",
+    "slides": "lectures3/Pythonlearn-14-Objects.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 14: Python Objects",
+            "href" : "https://www.py4e.com/html3/14-objects"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Objects Part 1",
+            "youtube" : "u9xZE5t9Y30"
+        },
+        {
+            "title" : "Objects Part 2",
+            "youtube" : "b2vc5uzUfoE"
+        },
+        {
+            "title" : "Objects Part 3",
+            "youtube" : "bal0Fv6QE9w"
+        },
+        {
+            "title" : "Objects Part 4",
+            "youtube" : "EE9PaHPPm2w"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Object-Oriented Programming",
+            "launch" : "mod/gift/?quiz=16-Python-Objects.txt",
+            "resource_link_id" : "iot_remote_quiz1"
+        }
+    ]
+},
+{
+    "title": "Module 5.1 IOT Monitoring Lab",
+    "mod_number":5, 
+    "anchor": "IOTMonitor1",
+    "icon" : "iot_monitor",
+    "description": "Lab description",
+    "slides": "lectures3/Pythonlearn-14-Objects.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 14: Python Objects",
+            "href" : "https://www.py4e.com/html3/14-objects"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Objects Part 1",
+            "youtube" : "u9xZE5t9Y30"
+        },
+        {
+            "title" : "Objects Part 2",
+            "youtube" : "b2vc5uzUfoE"
+        },
+        {
+            "title" : "Objects Part 3",
+            "youtube" : "bal0Fv6QE9w"
+        },
+        {
+            "title" : "Objects Part 4",
+            "youtube" : "EE9PaHPPm2w"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Object-Oriented Programming",
+            "launch" : "mod/gift/?quiz=16-Python-Objects.txt",
+            "resource_link_id" : "iot_monitor_quiz1"
+        }
+    ]
+},
+{
+    "title": "Module 6.1 IOT Data Collection Lab",
+    "mod_number":6, 
+    "anchor": "IOTDataCollect1",
+    "icon" : "iot_data_collection",
+    "description": "Lab description",
+    "slides": "lectures3/Pythonlearn-14-Objects.pptx",
+    "references" : [
+        {
+            "title" : "Chapter 14: Python Objects",
+            "href" : "https://www.py4e.com/html3/14-objects"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Objects Part 1",
+            "youtube" : "u9xZE5t9Y30"
+        },
+        {
+            "title" : "Objects Part 2",
+            "youtube" : "b2vc5uzUfoE"
+        },
+        {
+            "title" : "Objects Part 3",
+            "youtube" : "bal0Fv6QE9w"
+        },
+        {
+            "title" : "Objects Part 4",
+            "youtube" : "EE9PaHPPm2w"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Object-Oriented Programming",
+            "launch" : "mod/gift/?quiz=16-Python-Objects.txt",
+            "resource_link_id" : "iot_data_collect_quiz1"
         }
     ]
 }
